@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="700.0" prefWidth="1105.0" style="-fx-background-color: gainsboro;">
+         <center>
+            <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="601.0" prefWidth="865.0" style="-fx-background-color: white; -fx-background-radius: 10;" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane layoutX="15.0" layoutY="85.0" prefHeight="55.0" prefWidth="829.0" style="-fx-background-color: gainsboro;">
+                     <children>
+                        <Label layoutX="30.0" layoutY="19.0" text="Item Code">
+                           <font>
+                              <Font name="Arial Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="208.0" layoutY="19.0" text="Item Name">
+                           <font>
+                              <Font name="Arial Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="126.0" layoutY="19.0" text="Photo">
+                           <font>
+                              <Font name="Arial Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="327.0" layoutY="19.0" text="Item Group">
+                           <font>
+                              <Font name="Arial Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="456.0" layoutY="19.0" text="Last purchase">
+                           <font>
+                              <Font name="Arial Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="615.0" layoutY="19.0" text="On Hand">
+                           <font>
+                              <Font name="Arial Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="744.0" layoutY="19.0" text="Actions">
+                           <font>
+                              <Font name="Arial Bold" size="13.0" />
+                           </font>
+                        </Label>
+                     </children></Pane>
+                  <Label layoutX="66.0" layoutY="33.0" text="Inventory Management">
+                     <font>
+                        <Font name="Calibri Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="732.0" layoutY="30.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="98.0" style="-fx-background-color: #3E7C15; -fx-border-radius: 10px;" text="Add items" textFill="WHITE">
+                     <effect>
+                        <Blend />
+                     </effect>
+                     <graphic>
+                        <ImageView fitHeight="15.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Plus%20Math.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <ComboBox layoutX="601.0" layoutY="32.0" prefHeight="33.0" prefWidth="110.0" promptText="Export" style="-fx-background-color: #D4F8BD #D4F8BD; -fx-border-radius: 10px;" />
+                  <Label layoutX="52.0" layoutY="182.0" text="Item Code">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="768.0" layoutY="175.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="24.0" minWidth="-Infinity" mnemonicParsing="false" prefWidth="70.0" style="-fx-background-color: #D50707; -fx-border-radius: 15;" text="Remove" textFill="WHITE">
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </Button>
+                  <Label layoutX="52.0" layoutY="221.0" text="Item Code">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="52.0" layoutY="257.0" text="Item Code">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="52.0" layoutY="292.0" text="Item Code">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="23.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/Sugar%20Cubes.png" />
+                     </image>
+                  </ImageView>
+                  <TextArea layoutX="313.0" layoutY="26.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="35.0" prefWidth="231.0" promptText="     Search">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </TextArea>
+                  <ImageView fitHeight="14.0" fitWidth="13.0" layoutX="321.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/Search.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="768.0" layoutY="214.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="24.0" minWidth="-Infinity" mnemonicParsing="false" prefWidth="70.0" style="-fx-background-color: #D50707; -fx-border-radius: 15;" text="Remove" textFill="WHITE">
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </Button>
+                  <Button layoutX="768.0" layoutY="250.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="24.0" minWidth="-Infinity" mnemonicParsing="false" prefWidth="70.0" style="-fx-background-color: #D50707; -fx-border-radius: 15;" text="Remove" textFill="WHITE">
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </Button>
+                  <Button layoutX="768.0" layoutY="293.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="24.0" minWidth="-Infinity" mnemonicParsing="false" prefWidth="70.0" style="-fx-background-color: #D50707; -fx-border-radius: 15;" text="Remove" textFill="WHITE">
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </Button>
+               </children>
+            </Pane>
+         </center>
+         <left>
+            <Pane prefHeight="635.0" prefWidth="180.0" style="-fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
+               <children>
+                  <Button layoutX="18.0" layoutY="26.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="146.0" style="-fx-background-color: #FFF;" styleClass="bb" text="Dashboard" textFill="#6b6b6b">
+                     <padding>
+                        <Insets bottom="20.0" top="20.0" />
+                     </padding>
+                     <font>
+                        <Font name="Roboto Bold" size="12.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="19.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Control%20Panel.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="18.0" layoutY="146.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="146.0" style="-fx-background-color: white;" text="Purchase" textFill="#6b6b6b">
+                     <padding>
+                        <Insets bottom="20.0" top="20.0" />
+                     </padding>
+                     <graphic>
+                        <ImageView fitHeight="19.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Buy.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <ComboBox editable="true" layoutX="19.0" layoutY="88.0" prefHeight="35.0" prefWidth="145.0" promptText="Inventory" style="-fx-background-color: #ffffff;" />
+                  <Button layoutX="17.0" layoutY="208.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="146.0" style="-fx-background-color: white;" text="Sales" textFill="#6b6b6b">
+                     <padding>
+                        <Insets bottom="20.0" top="20.0" />
+                     </padding>
+                     <graphic>
+                        <ImageView fitHeight="19.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Overstock%20Sale.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="19.0" layoutY="363.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="35.0" prefWidth="146.0" style="-fx-background-color: white;" text="Customers" textFill="#6b6b6b">
+                     <padding>
+                        <Insets bottom="20.0" top="20.0" />
+                     </padding>
+                     <graphic>
+                        <ImageView fitHeight="23.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Users.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="19.0" layoutY="265.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="146.0" style="-fx-background-color: white;" text="Invoices" textFill="#6b6b6b">
+                     <padding>
+                        <Insets bottom="20.0" top="20.0" />
+                     </padding>
+                     <graphic>
+                        <ImageView fitHeight="23.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Purchase%20Order.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="19.0" layoutY="318.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="146.0" style="-fx-background-color: white;" text="Bills" textFill="#6b6b6b">
+                     <padding>
+                        <Insets bottom="20.0" top="20.0" />
+                     </padding>
+                     <graphic>
+                        <ImageView fitHeight="23.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Bill.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="19.0" layoutY="420.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="35.0" prefWidth="146.0" style="-fx-background-color: white;" text="Suppliers" textFill="#6b6b6b">
+                     <graphic>
+                        <ImageView fitHeight="23.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Supplier.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+               </children>
+            </Pane>
+         </left>
+         <top>
+            <Pane prefHeight="57.0" prefWidth="1000.0" style="-fx-background-color: #FFF;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="68.0" layoutY="16.0" text="INVENTORY">
+                     <font>
+                        <Font name="Calibri Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="38.0" fitWidth="40.0" layoutX="22.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/Sugar%20Cubes.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>
